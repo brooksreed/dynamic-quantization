@@ -5,9 +5,11 @@ Implements and compares a few dynamic quantization algorithms from the literatur
 The 08 TAC LP-based method requires an installation of AMPL/CPLEX.  
 
 'azuma08fwd';           % Azuma 08 Automatica
+
 'azuma08feedback';      % uses Azuma 08 Automatica in feedback
 
 'azumaLPfwd';           % uses Azuma 08 TAC finite-horizon LP
+
 'azumaLPfeedback';      % uses Azuma 08 TAC in feedback
 
 'minami07';             % uses Minami 07 CDC (specific to feedback)
